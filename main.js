@@ -1,3 +1,5 @@
+time();
+
 setInterval(time, 1000);
 function time() {
   const teraz = new Date();
