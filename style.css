@@ -62,10 +62,11 @@ main {
 main h1 {
   font-family: albertus;
   font-size: 8rem;
-  -webkit-text-stroke: 8px var(--dark-blue);
-  text-stroke: 8px var(--dark-blue);
+  -webkit-text-stroke: 13px var(--dark-blue);
+  text-stroke: 13px var(--dark-blue);
+  paint-order: stroke fill;
   color: var(--light-blue);
-  letter-spacing: 20px;
+  letter-spacing: 40px;
   font-weight: 800;
 }
 
