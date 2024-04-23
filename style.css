@@ -374,9 +374,9 @@ main p {
 
 
 
-@media screen and (min-device-width: 415px) and (max-device-width: 430px){
+@media screen and (min-device-width: 415px) and (max-device-width: 499px){
   .container {
-    max-width: 430px;
+    max-width: 499px;
     height: 100%;
   }
 
@@ -408,11 +408,14 @@ main p {
     margin-right: 10px;
   }
 
-  .box h2 {
-    font-size: 40px;
+  .box h2 {.progress-div p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-weight: bold;
+    font-size: 30px;
   }
-  
-  .box p {
     font-size: 24px;
   }
   
@@ -429,131 +432,413 @@ main p {
 
 
 
+@media screen and (min-device-width: 500px) and (max-device-width: 744px){
+  .container {
+    max-width: 744px;
+    height: 100%;
+  }
 
+  main{
+    width: 80%;
+    height: 70%;
+    border-radius: 36px;
+  }
 
+  main h1{
+    font-size: 88px;
+    letter-spacing: 40%;
+    -webkit-text-stroke: 8px var(--dark-blue);
+    text-stroke: 8px var(--dark-blue);
+  }
 
-/* stary kod */
+  main p {
+    max-width: 100%;
+    font-size: 22px;
+  }
 
+  .div_box {
+    width: 85%;
+  }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  text-transform: uppercase;
+  .box {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box h2 {
+    font-size: 40px;
+  }
+  
+  .box p {
+    font-size: 24px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 85%;
+    height: 54px;
+  }
 }
 
-body {
-  height: 100vh;
-  width: 100vw;
+
+
+
+
+
+@media screen and (min-device-width: 745px) and (max-device-width: 834px){
+  .container {
+    max-width: 834px;
+    height: 100%;
+  }
+
+  main{
+    width: 75%;
+    height: 60%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 88px;
+    letter-spacing: 40%;
+    -webkit-text-stroke: 8px var(--dark-blue);
+    text-stroke: 8px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 22px;
+  }
+
+  .div_box {
+    width: 85%;
+  }
+
+  .box {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box h2 {
+    font-size: 40px;
+  }
+  
+  .box p {
+    font-size: 24px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 85%;
+    height: 54px;
+  }
 }
 
-.container {
-  width: 100%;
-  height: 100%;
-  background-image: url(bg_img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+
+
+
+
+
+@media screen and (min-device-width: 835px) and (max-device-width: 1024px){
+  .container {
+    max-width: 1024px;
+    height: 100%;
+  }
+
+  main{
+    width: 75%;
+    height: 70%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 96px;
+    letter-spacing: 40%;
+    -webkit-text-stroke: 8px var(--dark-blue);
+    text-stroke: 8px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 25px;
+  }
+
+  .div_box {
+    width: 85%;
+  }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box h2 {
+    font-size: 50px;
+  }
+  
+  .box p {
+    font-size: 24px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 80%;
+    height: 65px;
+  }
+
+  .progress-div p {
+    font-size: 45px;
+  }
 }
 
-main {
-  width: 80%;
-  height: 70%;
-  background-color: var(--main-bgc);
-  border-radius: 36px;
-  backdrop-filter: blur(4px);
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
 
+
+
+
+
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1280px){
+  .container {
+    max-width: 1280px;
+    height: 100%;
+  }
+
+  main{
+    width: 75%;
+    height: 80%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 112px;
+    letter-spacing: 35%;
+    -webkit-text-stroke: 8px var(--dark-blue);
+    text-stroke: 8px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .div_box {
+    width: 100%;
+  }
+
+  .box {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box h2 {
+    font-size: 40px;
+  }
+  
+  .box p {
+    font-size: 24px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 80%;
+    height: 54px;
+  }
+
+  .progress-div p {
+    font-size: 30px;
+  }
 }
 
-main h1 {
-  font-family: albertus;
-  font-size: 8rem;
-  -webkit-text-stroke: 13px var(--dark-blue);
-  text-stroke: 13px var(--dark-blue);
-  paint-order: stroke fill;
-  color: var(--light-blue);
-  letter-spacing: 40px;
-  font-weight: 800;
+
+
+
+
+
+@media screen and (min-device-width: 1281px) and (max-device-width: 1440px){
+  .container {
+    max-width: 1440px;
+    height: 100%;
+  }
+
+  main{
+    width: 75%;
+    height: 80%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 128px;
+    letter-spacing: 35%;
+    -webkit-text-stroke: 10px var(--dark-blue);
+    text-stroke: 10px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .div_box {
+    width: 100%;
+  }
+
+  .box {
+    height: 190px;
+    width: 190px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box h2 {
+    font-size: 50px;
+  }
+  
+  .box p {
+    font-size: 28px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 70%;
+    height: 68px;
+  }
+
+  .progress-div p {
+    font-size: 40px;
+  }
 }
 
-main p {
-  font-size: 2rem;
-  font-weight: 600;
-  color: white;
+
+
+
+
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1728px){
+  .container {
+    max-width: 1728px;
+    height: 100%;
+  }
+
+  main{
+    width: 70%;
+    height: 80%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 140px;
+    letter-spacing: 35%;
+    -webkit-text-stroke: 12px var(--dark-blue);
+    text-stroke: 12px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 30px;
+  }
+
+  .div_box {
+    width: 90%;
+  }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box h2 {
+    font-size: 50px;
+  }
+  
+  .box p {
+    font-size: 28px;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 70%;
+    height: 68px;
+  }
+
+  .progress-div p {
+    font-size: 40px;
+  }
 }
 
-.div_box {
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+
+
+
+
+@media screen and (min-device-width: 1729px){
+  .container {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  main{
+    width: 80%;
+    height: 70%;
+    border-radius: 36px;
+  }
+
+  main h1{
+    font-size: 8rem;
+    letter-spacing: 40px;
+    -webkit-text-stroke: 13px var(--dark-blue);
+    text-stroke: 13px var(--dark-blue);
+  }
+
+  main p {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+
+  .div_box {
+    width: 70%;
+  }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box h2 {
+    font-size: 4rem;
+  }
+  
+  .box p {
+    font-size: 2rem;
+  }
+  
+  .progress-bar-div {
+    margin-top: -20px;
+    width: 55%;
+    height: 68px;
+  }
+
+  .progress-div p {
+    font-size: 40px;
+  }
 }
-
-.box {
-  width: 20%;
-  aspect-ratio: 1/1;
-  background-color: var(--dark-blue);
-  border-radius: 22px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.p_animation{
-  height: 50%;
-  height: 50%;
-  overflow-y: hidden;
-}
-
-.box h2 {
-  font-size: 4rem;
-  font-weight: 900;
-  color: white;
-}
-
-.box p {
-  font-size: 2rem;
-  font-weight: 300;
-  color: white;
-}
-
-.progress-bar-div {
-  width: 720px;
-  height: 54px;
-  background-color: #c8deff;
-  border-radius: 22px;
-  border: 5px solid #000000;
-  overflow: hidden;
-
-  position: relative;
-}
-
-.progress-div {
-  height: 100%;
-  background-color: var(--dark-blue);
-}
-
-.progress-div p {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50% , -50%);
-  font-weight: black;
-} */
-
 
