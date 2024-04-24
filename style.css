@@ -2,11 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@font-face {
-  font-family: albertus;
-  src: url(albertus.ttf);
-  font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
 
 
 /* ===== Paleta kolorów ===== */  
@@ -66,8 +62,8 @@ main {
 }
 
 main h1 {
-  font-family: albertus;
-  font-size: 36px;
+  font-family: "Port Lligat Slab", serif;
+  font-size: 40px;
   -webkit-text-stroke: 6px var(--dark-blue);
   text-stroke: 6px var(--dark-blue);
   paint-order: stroke fill;
@@ -164,7 +160,7 @@ main p {
   }
 
   main h1{
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 20px;
   }
 
@@ -216,8 +212,8 @@ main p {
   }
 
   main h1{
-    font-size: 40px;
-    letter-spacing: 40%;
+    font-size: 50px;
+    letter-spacing: 20px;
   }
 
   main p {
@@ -233,126 +229,7 @@ main p {
     height: 120px;
     width: 120px;
     margin-bottom: 30px;
-    margin-left: 10px;* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      text-transform: uppercase;
-    }
-    
-    body {
-      height: 100vh;
-      width: 100vw;
-    }
-    
-    .container {
-      width: 100%;
-      height: 100%;
-      background-image: url(bg_img.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    main {
-      width: 80%;
-      height: 70%;
-      background-color: var(--main-bgc);
-      border-radius: 36px;
-      backdrop-filter: blur(4px);
-    
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-    
-    }
-    
-    main h1 {
-      font-family: albertus;
-      font-size: 8rem;
-      -webkit-text-stroke: 13px var(--dark-blue);
-      text-stroke: 13px var(--dark-blue);
-      paint-order: stroke fill;
-      color: var(--light-blue);
-      letter-spacing: 40px;
-      font-weight: 800;
-    }
-    
-    main p {
-      font-size: 2rem;
-      font-weight: 600;
-      color: white;
-    }
-    
-    .div_box {
-      width: 70%;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    
-    .box {
-      width: 20%;
-      aspect-ratio: 1/1;
-      background-color: var(--dark-blue);
-      border-radius: 22px;
-    
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-    }
-    
-    .p_animation{
-      height: 50%;
-      height: 50%;
-      overflow-y: hidden;
-    }
-    
-    .box h2 {
-      font-size: 4rem;
-      font-weight: 900;
-      color: white;
-    }
-    
-    .box p {
-      font-size: 2rem;
-      font-weight: 300;
-      color: white;
-    }
-    
-    .progress-bar-div {
-      width: 720px;
-      height: 54px;
-      background-color: #c8deff;
-      border-radius: 22px;
-      border: 5px solid #000000;
-      overflow: hidden;
-    
-      position: relative;
-    }
-    
-    .progress-div {
-      height: 100%;
-      background-color: var(--dark-blue);
-    }
-    
-    .progress-div p {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50% , -50%);
-      font-weight: black;
-    }
+    margin-left: 10px;
     font-size: 40px;
   }
   
@@ -387,8 +264,8 @@ main p {
   }
 
   main h1{
-    font-size: 48px;
-    letter-spacing: 40%;
+    font-size: 58px;
+    letter-spacing: 20px;
   }
 
   main p {
@@ -407,19 +284,16 @@ main p {
     margin-left: 10px;
     margin-right: 10px;
   }
-
-  .box h2 {.progress-div p {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    font-weight: bold;
-    font-size: 30px;
+  .box h2 {
+    font-size: 40px;
   }
+  
+  .box p {
     font-size: 24px;
   }
   
   .progress-bar-div {
+    margin-top: -20px;
     width: 85%;
     height: 54px;
   }
@@ -445,8 +319,8 @@ main p {
   }
 
   main h1{
-    font-size: 88px;
-    letter-spacing: 40%;
+    font-size: 95px;
+    letter-spacing: 20px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
   }
@@ -501,8 +375,8 @@ main p {
   }
 
   main h1{
-    font-size: 88px;
-    letter-spacing: 40%;
+    font-size: 95px;
+    letter-spacing: 30px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
   }
@@ -559,10 +433,10 @@ main p {
   }
 
   main h1{
-    font-size: 96px;
-    letter-spacing: 40%;
-    -webkit-text-stroke: 8px var(--dark-blue);
-    text-stroke: 8px var(--dark-blue);
+    font-size: 105px;
+    letter-spacing: 40px;
+    -webkit-text-stroke: 10px var(--dark-blue);
+    text-stroke: 10px var(--dark-blue);
   }
 
   main p {
@@ -622,7 +496,7 @@ main p {
 
   main h1{
     font-size: 112px;
-    letter-spacing: 35%;
+    letter-spacing: 35px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
   }
@@ -681,8 +555,8 @@ main p {
   }
 
   main h1{
-    font-size: 128px;
-    letter-spacing: 35%;
+    font-size: 160px;
+    letter-spacing: 40px;
     -webkit-text-stroke: 10px var(--dark-blue);
     text-stroke: 10px var(--dark-blue);
   }
@@ -800,8 +674,8 @@ main p {
   }
 
   main h1{
-    font-size: 8rem;
-    letter-spacing: 40px;
+    font-size: 10rem;
+    letter-spacing: 50px;
     -webkit-text-stroke: 13px var(--dark-blue);
     text-stroke: 13px var(--dark-blue);
   }
