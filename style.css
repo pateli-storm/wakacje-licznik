@@ -68,6 +68,7 @@ main h1 {
   text-stroke: 6px var(--dark-blue);
   paint-order: stroke fill;
   color: var(--light-blue);
+  text-indent: 20px;
   letter-spacing: 20px;
   font-weight: 800;
 }
@@ -121,6 +122,7 @@ main p {
 }
 
 .progress-bar-div {
+  margin-top: -30px;
   width: 90%;
   height: 50px;
   background-color: #c8deff;
@@ -161,6 +163,7 @@ main p {
 
   main h1{
     font-size: 50px;
+    text-indent: 20px;
     letter-spacing: 20px;
   }
 
@@ -213,6 +216,7 @@ main p {
 
   main h1{
     font-size: 50px;
+    text-indent: 20px;
     letter-spacing: 20px;
   }
 
@@ -265,6 +269,7 @@ main p {
 
   main h1{
     font-size: 58px;
+    text-indent: 20px;
     letter-spacing: 20px;
   }
 
@@ -320,6 +325,7 @@ main p {
 
   main h1{
     font-size: 95px;
+    text-indent: 20px;
     letter-spacing: 20px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
@@ -376,6 +382,7 @@ main p {
 
   main h1{
     font-size: 95px;
+    text-indent: 30px;
     letter-spacing: 30px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
@@ -434,6 +441,7 @@ main p {
 
   main h1{
     font-size: 105px;
+    text-indent: 40px;
     letter-spacing: 40px;
     -webkit-text-stroke: 10px var(--dark-blue);
     text-stroke: 10px var(--dark-blue);
@@ -496,6 +504,7 @@ main p {
 
   main h1{
     font-size: 112px;
+    text-indent: 35px;
     letter-spacing: 35px;
     -webkit-text-stroke: 8px var(--dark-blue);
     text-stroke: 8px var(--dark-blue);
@@ -527,7 +536,6 @@ main p {
   }
   
   .progress-bar-div {
-    margin-top: -20px;
     width: 80%;
     height: 54px;
   }
@@ -556,6 +564,7 @@ main p {
 
   main h1{
     font-size: 160px;
+    text-indent: 40px;
     letter-spacing: 40px;
     -webkit-text-stroke: 10px var(--dark-blue);
     text-stroke: 10px var(--dark-blue);
@@ -587,7 +596,7 @@ main p {
   }
   
   .progress-bar-div {
-    margin-top: -20px;
+    margin-top: -10px;
     width: 70%;
     height: 68px;
   }
@@ -616,7 +625,8 @@ main p {
 
   main h1{
     font-size: 140px;
-    letter-spacing: 35%;
+    text-indent: 35px;
+    letter-spacing: 35px;
     -webkit-text-stroke: 12px var(--dark-blue);
     text-stroke: 12px var(--dark-blue);
   }
@@ -647,7 +657,7 @@ main p {
   }
   
   .progress-bar-div {
-    margin-top: -20px;
+    margin-top: -10px;
     width: 70%;
     height: 68px;
   }
@@ -675,6 +685,7 @@ main p {
 
   main h1{
     font-size: 10rem;
+    text-indent: 50px;
     letter-spacing: 50px;
     -webkit-text-stroke: 13px var(--dark-blue);
     text-stroke: 13px var(--dark-blue);
@@ -706,7 +717,7 @@ main p {
   }
   
   .progress-bar-div {
-    margin-top: -20px;
+    margin-top: -10px;
     width: 55%;
     height: 68px;
   }
